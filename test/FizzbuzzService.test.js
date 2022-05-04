@@ -4,5 +4,6 @@ describe("Test para Fizzbuzz Service", () => {
           const explorers = {name: "Woopa1", score:1}
           const explorersInNode = FizzbuzzService.applyValidationInExplorer(explorers) 
           expect(explorersInNode).toMatchObject({"name": "Woopa1", "score":1})
+        
     });
 });
