@@ -15,5 +15,7 @@ describe("Test para explorer service", () => {
     const explorers = [{githubUsername: "Aneth", mission: "node"}]
     const explorersInNode = ExplorerService.getAmountOfExplorersByMission(explorers, "node")
     expect(explorersInNode).toBe(1)
+  
+
 });
 });
